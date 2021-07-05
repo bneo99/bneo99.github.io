@@ -28,7 +28,7 @@ twitter_username: bryanncy1999
 github_username:  bneo99
 
 # Build settings
-remote_theme: rmsubekti/nangka
+theme: minima
 plugins:
   - jekyll-feed
 
