@@ -35,7 +35,7 @@ The CGI scripts works in the same way as the [Instructables post][kindle-footswi
 - Connect to the Kindle over SSH.
 - Run `cat /dev/input/eventX > next.event` (the event number depends on your Kindle, for mine it was `event1`)
 - Tap the screen at a position that will make the Kindle go to the next page.
-- The command should complete with the `next.event` file in the current directory.
+- The command should complete with the `next.event` file in the current directory (You may need to Ctrl+C after tapping the screen if it does not return to the prompt itself).
 - Repeat with the tap to go to the previous page.
 
 #### Replaying the tap to the Kindle.
